@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">This is fhc first title</string>
+    <string name="user_name">姓名</string>
+    <string name="input_hint">请输入你的姓名</string>
+    <string name="btn_text">Click</string>
+    <string name="btn_text2">Click2</string>
+</resources>
