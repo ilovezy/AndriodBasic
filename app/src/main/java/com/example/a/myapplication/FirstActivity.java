@@ -54,9 +54,8 @@ public class FirstActivity extends Activity {
      */
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        System.out.println(backStr);
         if (requestCode == 1 && resultCode == 2) {
-            backStr = data.getStringExtra("data");
+            String backStr = data.getStringExtra("data");
             System.out.println(backStr);
             textViewResult.setText(backStr);
         }
