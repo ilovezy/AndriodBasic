@@ -4,72 +4,28 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.a.myapplication.MainActivity">
 
-    <TextView
-        android:id="@+id/textView"
+    <Button
+        android:id="@+id/btn1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:text="@string/user_name"
-        android:textColor="@color/colorPrimary"
-        android:textSize="25sp" />
-
-    <EditText
-        android:id="@+id/editText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/textView"
-        android:layout_alignParentTop="true"
-        android:layout_toEndOf="@+id/textView"
-        android:layout_toRightOf="@+id/textView"
-        android:background="@color/colorAccent"
-        android:ems="10"
-        android:hint="@string/input_hint"
-        android:inputType="phone"
-        android:paddingLeft="10dp" />
+        android:text="click" />
 
     <Button
-        android:id="@+id/button1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/imageView"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="50dp"
-        android:text="@string/btn_text" />
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:text="click2"
+        android:layout_toRightOf="@+id/btn1"
+      />
 
     <Button
-        android:id="@+id/button2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/imageView"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="60dp"
-        android:background="#428bca"
-        android:text="@string/btn_text"
-        android:textColor="#fff" />
-
-    <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/btn3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@mipmap/stars"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="18dp" />
-
-
-    <String android:name="app_name">MarqueeTextView</String>
-    <String android:name="action_settings">Settings</String>
-    <String android:name="hello_world">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos natus quo similique ut voluptatum? Aperiam blanditiis consequatur doloremque, ex facere ipsa ipsam ipsum quasi quis repellat sapiente tempore voluptatum. Nobis?</String>
+        android:layout_toRightOf="@+id/btn2"
+        android:text="click3" />
 
 
 </RelativeLayout>
