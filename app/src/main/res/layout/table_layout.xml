@@ -10,11 +10,11 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent" >
         <Button
-            android:text="click"
+            android:text="@string/click"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
         <Button
-            android:text="click2"
+            android:text="@string/click2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
         <Button
@@ -26,11 +26,11 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent" >
         <Button
-            android:text="click"
+            android:text="@string/click"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
         <Button
-            android:text="click2"
+            android:text="@string/click2"
             android:layout_span="2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
