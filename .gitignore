@@ -7,3 +7,6 @@
 /build
 /captures
 .externalNativeBuild
+app/libs/
+/app/app-release.apk
+libs/
