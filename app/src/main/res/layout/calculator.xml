@@ -5,12 +5,13 @@
     android:stretchColumns="*"
     android:background="@color/colorPrimary"
     >
-    <TextView
-        android:background="#f0f0f0"
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:text="90"
-        android:gravity="right|center" />
+    <EditText
+        android:id="@+id/editText"
+        android:background="@drawable/edit_text"
+        android:layout_height="50dp"
+        android:enabled="false"
+        />
+
     <TableRow>
         <Button
             android:layout_width="wrap_content"
@@ -32,7 +33,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/btnDidision"
+            android:id="@+id/btnDivide"
             android:text="/" />
     </TableRow>
     <TableRow>
@@ -56,7 +57,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/btnMultiplication"
+            android:id="@+id/btnMultiply"
             android:text="*" />
     </TableRow>
     <TableRow>
@@ -89,13 +90,11 @@
             android:layout_height="wrap_content"
             android:id="@+id/btn0"
             android:text="0" />
-
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/btnSpace"
-            android:text="__" />
-
+            android:id="@+id/btnPoint"
+            android:text="." />
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -106,5 +105,20 @@
             android:layout_height="wrap_content"
             android:id="@+id/btnMinus"
             android:text="-" />
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnEquals"
+            android:text="="/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp"
+            android:id="@+id/btnClear"
+            android:text="clear" />
     </TableRow>
 </TableLayout>
