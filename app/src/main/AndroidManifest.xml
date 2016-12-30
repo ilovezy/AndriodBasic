@@ -32,19 +32,9 @@
         android:theme="@style/AppTheme">
 
         <activity android:name=".MainActivity">
-            <!--<intent-filter>-->
-                <!--<action android:name="android.intent.action.MAIN" />-->
-
-                <!--<category android:name="android.intent.category.LAUNCHER" />-->
-            <!--</intent-filter>-->
         </activity>
 
         <activity android:name=".FirstActivity">
-            <!--<intent-filter>-->
-                <!--<action android:name="android.intent.action.MAIN" />-->
-
-                <!--<category android:name="android.intent.category.LAUNCHER" />-->
-            <!--</intent-filter>-->
         </activity>
 
         <activity android:name=".SecondActivity">
@@ -52,15 +42,14 @@
 
         <activity 
             android:name=".Calculator">
-            <!--<intent-filter>-->
-                <!--<action android:name="android.intent.action.MAIN" />-->
-
-                <!--<category android:name="android.intent.category.LAUNCHER" />-->
-            <!--</intent-filter>-->
         </activity>
 
         <activity
             android:name=".TestListView">
+        </activity>
+
+        <activity
+            android:name=".TestDateTimePicker">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -73,8 +62,6 @@
         <!--<provider-->
             <!--android:authorities=""-->
             <!--android:name="" />-->
-
-
 
     </application>
 
