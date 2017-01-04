@@ -50,6 +50,14 @@
 
         <activity
             android:name=".TestDateTimePicker">
+        </activity>
+
+        <activity
+            android:name=".TestDrawable">
+        </activity>
+
+        <activity
+            android:name=".TestGridView">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

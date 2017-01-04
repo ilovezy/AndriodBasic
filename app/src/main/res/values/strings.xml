@@ -8,4 +8,9 @@
     <string name="long_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad excepturi ipsum labore placeat quidem sequi suscipit tenetur voluptatibus. At corporis cumque enim facilis fugiat illo labore laboriosam, officiis provident quidem?</string>
     <string name="click2">click2</string>
     <string name="click">click</string>
+    <string name="textview1">TextView1</string>
+    <string name="textview4">TextView4</string>
+    <string name="textview3">TextView3</string>
+    <string name="textview2">TextView2</string>
+    <string name="hello">hello</string>
 </resources>
